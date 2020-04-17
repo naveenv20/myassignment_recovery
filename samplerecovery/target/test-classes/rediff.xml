@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleRecovery" >
+<!--listeners>
+<listener class-name="sample.recovery.samplerecovery.utils.RetryListener"/>
+ </listeners-->
+
+  <test name="Login Test">
+    <classes>
+        <class name="sample.recovery.samplerecovery.RediffLogin" ></class>  
+        
+    </classes>
+ </test>
+ 
+ 
+
+
+</suite>

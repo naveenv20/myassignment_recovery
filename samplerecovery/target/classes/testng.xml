@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite">
+
+
+ 	<listeners>
+        <listener class-name="sample.recovery.samplerecovery.utils.RetryListener" />
+    </listeners>  
+ <suite-files>
+   <suite-file path="./src/test/resources/rediff.xml"/>
+ </suite-files>
+
+</suite>

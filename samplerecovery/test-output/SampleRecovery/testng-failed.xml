@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleRecovery]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="sample.recovery.samplerecovery.utils.RetryListener"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="sample.recovery.samplerecovery.RediffLogin">
+        <methods>
+          <include name="quit"/>
+          <include name="initTest"/>
+          <include name="init"/>
+          <include name="RediffLogintest" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- sample.recovery.samplerecovery.RediffLogin -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [SampleRecovery] -->
